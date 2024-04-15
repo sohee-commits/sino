@@ -126,9 +126,6 @@ header {
 }
 
 .summary .image {
-	width: 100%;
-}
-
-.summary .image img {
-	object-fit: contain;
+	background-image: url('../assets/summary.png');
+	background-size: cover;
 }
