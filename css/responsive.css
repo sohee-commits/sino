@@ -1,3 +1,39 @@
+/* отдельно для настройки размеров шрифта */
+@media (max-width: 400px) {
+	p {
+		font-size: 14px;
+	}
+
+	small {
+		font-size: 0.8rem;
+	}
+
+	.text-large {
+		font-size: 2rem;
+		font-weight: 600;
+	}
+
+	.text-big {
+		font-size: 1.75rem;
+		font-weight: 600;
+	}
+
+	.text-heading {
+		font-size: 1.25rem;
+		font-weight: 600;
+	}
+}
+
+@media (max-width: 400px) {
+	.cards {
+		flex-direction: column;
+	}
+
+	.card {
+		min-width: 1rem;
+	}
+}
+
 @media (max-width: 680px) {
 	header {
 		gap: 2rem;
