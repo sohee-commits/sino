@@ -298,3 +298,23 @@ header {
 	grid-template-columns: repeat(2, 1fr);
 	gap: 2rem;
 }
+
+.download .text-fade {
+	margin: 1rem 0;
+}
+
+.download .apps {
+	display: flex;
+	gap: 1rem;
+}
+
+.download .image {
+	background-image: url('../assets/download-bg.png');
+	background-size: cover;
+}
+
+.download {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2rem;
+}
