@@ -253,3 +253,48 @@ header {
 	gap: 2rem;
 }
 
+.faq .hidden {
+	display: none;
+}
+
+.faq button {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.faq .q * {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.faq .q {
+	margin: 1rem 0;
+
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.faq .text-heading {
+	margin-bottom: 1rem;
+}
+
+.faq .a * {
+	color: var(--gray);
+}
+
+.faq .a ol {
+	margin-left: 2rem;
+}
+
+.faq .image {
+	background-image: url('../assets/faq-bg.png');
+	background-size: cover;
+}
+
+.faq {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2rem;
+}

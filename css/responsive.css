@@ -44,10 +44,12 @@
 @media (max-width: 900px) {
 	/* на самом деле блок и так скроется,
   но на всякий случай задам явно */
+	.faq .image,
 	.more .image {
 		opacity: 0;
 	}
 
+	.faq,
 	.more {
 		grid-template-columns: 1fr;
 	}
