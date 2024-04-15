@@ -37,6 +37,10 @@
   .about .card .image {
     height: 10rem;
   }
+
+  main {
+    gap: 4rem;
+  }
 }
 
 @media (max-width: 680px) {
