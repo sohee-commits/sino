@@ -52,7 +52,7 @@ a:hover {
 
 .text-heading {
 	font-size: 2rem;
-	font-weight: 600;
+	font-weight: 700;
 	text-transform: capitalize;
 }
 
@@ -201,3 +201,55 @@ header {
 	border-radius: 1rem;
 	background-image: url('../assets/about-bg.svg');
 }
+
+.more .circle {
+	width: 1rem;
+	height: 1rem;
+	background-image: url('../assets/circle.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.more .dotted-line {
+	height: 100%;
+	width: 0.2rem;
+	background-image: url('../assets/dotted-line.svg');
+}
+
+.more .mark {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.more ul .text p:first-of-type {
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.more ul .text .text-fade {
+	margin: 1rem 0;
+}
+
+.more li {
+	display: flex;
+	gap: 2rem;
+}
+
+.more .text > .text-fade {
+	margin: 1rem 0;
+}
+
+.more .image {
+	background-image: url('../assets/more.png');
+	background-size: cover;
+}
+
+.more {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2rem;
+}
+
