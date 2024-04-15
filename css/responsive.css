@@ -1,6 +1,19 @@
 @media (max-width: 680px) {
-  header {
-    gap: 2rem;
-    flex-wrap: wrap;
-  }
+	header {
+		gap: 2rem;
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 1320px) {
+	/* на самом деле блок и так скроется,
+  но на всякий случай задам явно */
+	.summary .image {
+		opacity: 0;
+	}
+
+	.summary {
+		position: relative;
+		grid-template-columns: 1fr;
+	}
 }
