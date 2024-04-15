@@ -10,28 +10,33 @@
 
 	.text-large {
 		font-size: 2rem;
-		font-weight: 600;
 	}
 
 	.text-big {
 		font-size: 1.75rem;
-		font-weight: 600;
 	}
 
 	.text-heading {
 		font-size: 1.25rem;
-		font-weight: 600;
+	}
+
+	.text-small-heading {
+		font-size: 1.25rem;
 	}
 }
 
 @media (max-width: 400px) {
-	.cards {
+	.about .cards {
 		flex-direction: column;
 	}
 
-	.card {
+	.about .card {
 		min-width: 1rem;
 	}
+
+  .about .card .image {
+    height: 10rem;
+  }
 }
 
 @media (max-width: 680px) {
@@ -75,7 +80,6 @@
 	}
 
 	.summary {
-		position: relative;
 		grid-template-columns: 1fr;
 	}
 }
