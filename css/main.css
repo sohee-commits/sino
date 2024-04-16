@@ -1,0 +1,170 @@
+:root {
+  --black: #212121;
+  --gray: #b5aaae;
+  --white: #fdfdfd;
+  --mainColorLight: #fff3f7;
+  --mainColor: #ffa6c9;
+  --mainColorDark: #996378;
+  --gold: #fbbc12;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: var(--black);
+  transition: all 0.2s ease;
+}
+
+body {
+  position: relative;
+  background-color: var(--white);
+}
+
+p {
+  font-size: 16px;
+}
+
+small {
+  font-size: 0.875rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--mainColorDark);
+}
+
+.text-large {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.text-big {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.text-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.text-small-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.text-fade {
+  font-weight: 600;
+  color: var(--gray);
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.btn {
+  padding: 0.75rem;
+
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: var(--mainColor);
+  color: var(--white);
+}
+
+.btn:hover {
+  background-color: var(--mainColorDark);
+  cursor: pointer;
+}
+
+.logo {
+  width: 5.875rem;
+  height: 2.5rem;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+header {
+  padding: 1rem 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  padding: 4rem 2rem;
+  display: grid;
+  gap: 8rem;
+}
+
+footer > div > div {
+  display: flex;
+  gap: 1rem;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+footer .bold {
+  font-weight: 700;
+}
+
+footer .text-fade {
+  font-size: 14px;
+}
+
+footer {
+  padding: 1rem 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.cr a {
+  color: var(--white);
+  font-size: 0.875rem;
+}
+
+.cr a:hover {
+  text-decoration: underline;
+}
+
+.cr {
+  padding: 1rem 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  background-color: var(--mainColor);
+}
