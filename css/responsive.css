@@ -1,38 +1,38 @@
 /* отдельно для настройки размеров шрифта */
 @media (max-width: 400px) {
-	p {
-		font-size: 14px;
-	}
+  p {
+    font-size: 14px;
+  }
 
-	small {
-		font-size: 0.8rem;
-	}
+  small {
+    font-size: 0.8rem;
+  }
 
-	.text-large {
-		font-size: 2rem;
-	}
+  .text-large {
+    font-size: 2rem;
+  }
 
-	.text-big {
-		font-size: 1.75rem;
-	}
+  .text-big {
+    font-size: 1.75rem;
+  }
 
-	.text-heading {
-		font-size: 1.25rem;
-	}
+  .text-heading {
+    font-size: 1.25rem;
+  }
 
-	.text-small-heading {
-		font-size: 1.25rem;
-	}
+  .text-small-heading {
+    font-size: 1.25rem;
+  }
 }
 
 @media (max-width: 400px) {
-	.about .cards {
-		flex-direction: column;
-	}
+  .about .cards {
+    flex-direction: column;
+  }
 
-	.about .card {
-		min-width: 1rem;
-	}
+  .about .card {
+    min-width: 1rem;
+  }
 
   .about .card .image {
     height: 10rem;
@@ -44,46 +44,46 @@
 }
 
 @media (max-width: 680px) {
-	header {
-		gap: 2rem;
-		flex-wrap: wrap;
-	}
+  header {
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 660px) {
-	/* на самом деле блок и так скроется,
+  /* на самом деле блок и так скроется,
   но на всякий случай задам явно */
-	.download .image {
-		display: none;
-	}
+  .download .image {
+    display: none;
+  }
 
-	.download {
-		grid-template-columns: 1fr;
-	}
+  .download {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 900px) {
-	/* на самом деле блок и так скроется,
+  /* на самом деле блок и так скроется,
   но на всякий случай задам явно */
-	.faq .image,
-	.more .image {
-		display: none;
-	}
+  .faq .image,
+  .more .image {
+    display: none;
+  }
 
-	.faq,
-	.more {
-		grid-template-columns: 1fr;
-	}
+  .faq,
+  .more {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 1320px) {
-	/* на самом деле блок и так скроется,
+  /* на самом деле блок и так скроется,
   но на всякий случай задам явно */
-	.summary .image {
-		display: none;
-	}
+  .summary .image {
+    display: none;
+  }
 
-	.summary {
-		grid-template-columns: 1fr;
-	}
+  .summary {
+    grid-template-columns: 1fr;
+  }
 }
